@@ -27,6 +27,7 @@ header{
     display: flex;
     justify-content: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.596);
+    height: 70px;
   }
   
   .logo{
@@ -34,10 +35,9 @@ header{
     }
     
     .logo img{
-    height: 100px;
-    margin-left: 200px;
-    
-    }
+        height: 60px;
+        margin-left: 200px;
+        }
     
     .encabezado{
         padding: 20px;
@@ -59,8 +59,8 @@ header{
         font-family: "Josefin Sans", sans-serif;
         font-weight: bold;
         padding: 20px;
-        font-size: 19px;
-        text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.74);
+        font-size: 15px;
+        text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.199);
     }
     
     .enlaces a:hover{
