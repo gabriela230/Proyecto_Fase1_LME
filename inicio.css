@@ -1,6 +1,7 @@
 body{
-    font-family: Arial, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     margin: 0%;
+    background-color: rgb(241, 241, 241);
 }
 
 header{
@@ -12,6 +13,7 @@ header{
   left: 0; 
   top: 0; 
   height: 70px;
+  z-index: 99999;
 }
 
 .imgfondo{
@@ -25,10 +27,26 @@ header{
 .contenidocuerpo{
     text-align: center;
     padding: 150px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.199);
+    position: relative;
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
     
 }
+
+.info{
+    padding-top: 350px;
+    text-align: center;
+}
+
+.info ul{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 18%;
+}
+
 
 .logo{
 display: inline-flex;
@@ -72,10 +90,10 @@ margin-left: 250px;
 /*Footer*/
 footer{
     background: fixed;
-    position: absolute;
     bottom: 0;
     width: 100%;
-    height: 10px;   
+    height: 10px;  
+    text-align: center;
 }
 
 .contenido-footer{
@@ -84,6 +102,7 @@ footer{
     background-color: rgba(0, 0, 0, 0);
     margin-top: 40px;
     background-position: 0%;
+    text-align: center;
 }
 
 .contenido-footer footer{
@@ -101,7 +120,7 @@ footer{
 .contenido-footer footer .redes-footer .iconos{
     font-size: 20px;
     margin: 20px;
-    background: rgb(107, 0, 0);
+    background: rgb(167, 1, 1);
     width: 50px;
     height: 50px;
     display: flex;
